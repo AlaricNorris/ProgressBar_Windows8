@@ -1,0 +1,43 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FF00"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <com.alaric.norris.widget.progressbar.Win8ProgressBar
+            android:id="@+id/p1"
+            android:layout_width="280dip"
+            android:layout_height="180dip"
+            android:background="@android:color/darker_gray" />
+
+        <com.alaric.norris.widget.progressbar.Win8ProgressBar
+            android:id="@+id/p2"
+            android:layout_width="180dip"
+            android:layout_height="100dip"
+            android:background="#FFFFFF" />
+
+        <com.alaric.norris.widget.progressbar.Win8ProgressBar
+            android:id="@+id/p3"
+            android:layout_width="100dip"
+            android:layout_height="60dip"
+            android:background="#654322" />
+    </LinearLayout>
+
+</FrameLayout>
