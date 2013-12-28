@@ -101,7 +101,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:gravity
+          @attr name com.alaric.norris.widget.progressbar_win8:gravity
         */
         public static final int ProgressBar_gravity = 0;
         /**
@@ -115,7 +115,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:radius
+          @attr name com.alaric.norris.widget.progressbar_win8:radius
         */
         public static final int ProgressBar_radius = 1;
     };
