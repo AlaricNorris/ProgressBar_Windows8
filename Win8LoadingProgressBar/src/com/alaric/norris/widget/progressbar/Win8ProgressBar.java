@@ -47,7 +47,7 @@ public class Win8ProgressBar extends View {
 	 * 	int			:		delayMillis	
 	 * 	@since 2013-12-24上午11:01:13
 	 */
-	private int delayMillis = 20 ;
+	private int delayMillis = 30 ;
 
 	/**
 	 * 	TODO
